@@ -19,6 +19,7 @@ git clone --recursive https://github.com/OpenSiFli/SiFli-SDK
 软件框架如下图，
 
 ![sdk_arch_diagram](img/sdk_arch_diagram.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fchenxuuu%2Ftest111.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fchenxuuu%2Ftest111?ref=badge_shield)
 
 - HAL为硬件抽象层，提供不依赖于操作系统服务的驱动功能
 - RT-Thread设备驱动（Device Driver）基于HAL实现，提供了更高层的封装，用户无需实现中断服务程序，更易于使用，HAL与RT-Thread设备驱动更详细的比较请参考[芯片外设驱动](https://docs.sifli.com/projects/sdk/v2.3/sf32lb55x/app_development/drivers.html)。
@@ -97,3 +98,6 @@ SDK的目录结构
 |----------|---------------|----------------|------
 |v2.3      | 2025年1月21日  |               | 是
 |v2.4      | 2025年6月5日   |                | 是
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fchenxuuu%2Ftest111.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fchenxuuu%2Ftest111?ref=badge_large)
